@@ -6,12 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
-    "build": "parcel build --dist-dir public"
+    "build": "parcel build --dist-dir public --public url ./"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gh": "^2.8.9",
+    "gh-pages": "^6.1.1",
+    "pages": "^0.0.16",
     "parcel": "^2.11.0"
   }
 }
